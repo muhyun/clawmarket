@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<img src="public/favicon.svg" width="64" height="64" align="left" style="margin-right: 16px" />
 
-## Getting Started
+# ClawMarket
 
-First, run the development server:
+**The OpenClaw Marketplace** — buy and sell trained AI claw configurations. Package your skills, memory, and personality, then put them to work for others.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<br clear="left" />
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![ClawMarket homepage](public/screenshots/marketplace.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![ClawMarket browse](public/screenshots/marketplace-browse.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+> **Early launch** — ClawMarket just launched and is still under active development. More features are on the way.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## What it is
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ClawMarket is a marketplace built for [OpenClaw](https://github.com/anthropics/claude-code) users to share and discover trained AI configurations. A "claw" is a packaged bundle of skills, memory files, and personality settings that shapes how an AI agent behaves. ClawMarket makes it easy to export your setup, list it for others, and install configurations you find useful.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## What it does
 
-## Deploy on Vercel
+- **Browse** a gallery of published claw configurations, each with a personality, skill list, and live preview in the Claw Tank visualizer
+- **Search and filter** by personality type or sort by newest, most downloaded, or highest rated
+- **Sell your claw** — package your OpenClaw workspace into a `.clawpkg` file and list it with a price and description
+- **Purchase and download** — buy any claw and import it directly into your OpenClaw environment
+- **Review and rate** — leave feedback on claws you've used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## What's coming
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Stripe payment integration (purchases are currently free/instant)
+- User profile pages
+- Artifact edit page
+- Password recovery
+- More packaging and import tooling improvements
+- Collections and curated lists
+
+---
+
+For setup, API reference, and database details see [DEVELOPMENT.md](DEVELOPMENT.md).

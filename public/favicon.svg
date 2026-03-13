@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <!-- Background -->
+  <rect width="64" height="64" rx="12" fill="#0f172a"/>
+
+  <!-- Antennae -->
+  <line x1="22" y1="10" x2="12" y2="4"  stroke="#f97316" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="42" y1="10" x2="52" y2="4"  stroke="#f97316" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="12" cy="4"  r="2" fill="#f97316"/>
+  <circle cx="52" cy="4"  r="2" fill="#f97316"/>
+
+  <!-- Head -->
+  <rect x="18" y="9" width="28" height="15" rx="5" fill="#f97316"/>
+  <!-- Eyes -->
+  <circle cx="25" cy="16" r="3"   fill="white"/>
+  <circle cx="39" cy="16" r="3"   fill="white"/>
+  <circle cx="26" cy="16" r="1.5" fill="#0f172a"/>
+  <circle cx="40" cy="16" r="1.5" fill="#0f172a"/>
+
+  <!-- Body -->
+  <rect x="16" y="22" width="32" height="20" rx="7" fill="#f97316"/>
+  <line x1="17" y1="30" x2="47" y2="30" stroke="white" stroke-width="1" stroke-opacity="0.2"/>
+  <line x1="17" y1="36" x2="47" y2="36" stroke="white" stroke-width="1" stroke-opacity="0.2"/>
+
+  <!-- Left arm + claw -->
+  <path d="M16 27 Q6 23 4 30" stroke="#f97316" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M4 30 Q0 25 2 21" stroke="#f97316" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <path d="M4 30 Q1 35 4 38"  stroke="#f97316" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Right arm + claw -->
+  <path d="M48 27 Q58 23 60 30" stroke="#f97316" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M60 30 Q64 25 62 21" stroke="#f97316" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <path d="M60 30 Q63 35 60 38" stroke="#f97316" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Legs -->
+  <line x1="20" y1="40" x2="14" y2="50" stroke="#f97316" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="25" y1="42" x2="20" y2="54" stroke="#f97316" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="39" y1="42" x2="44" y2="54" stroke="#f97316" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="44" y1="40" x2="50" y2="50" stroke="#f97316" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Tail -->
+  <path d="M24 42 Q20 51 16 55 Q22 53 28 49" fill="#f97316" fill-opacity="0.7"/>
+  <path d="M32 43 Q32 54 32 58 Q35 53 38 49" fill="#f97316" fill-opacity="0.85"/>
+  <path d="M40 42 Q44 51 48 55 Q42 53 36 49" fill="#f97316" fill-opacity="0.7"/>
+</svg>
